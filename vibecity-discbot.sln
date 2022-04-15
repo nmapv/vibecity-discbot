@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9BA021C3-A7C3-43C0-9D25-CA8C458B177F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vibecity-discbot.app", "vibecity-discbot.app\vibecity-discbot.app.csproj", "{32A56AA6-B6F4-4921-B22E-9BDB8C7CFB53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vibecity-discbot.repository", "vibecity-discbot.repository\vibecity-discbot.repository.csproj", "{7BB6EE8B-FD0B-428F-828D-5F92C6012ED8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vibecity-discbot.entity", "vibecity-discbot.entity\vibecity-discbot.entity.csproj", "{825556D4-F3E8-4E8F-8E7F-89E640B1126D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vibecity-discbot.infrastructure", "vibecity-discbot.infrastructure\vibecity-discbot.infrastructure.csproj", "{2946A24C-ED2C-4955-934C-EE2FC119513C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vibecity-discbot.service", "vibecity-discbot.service\vibecity-discbot.service.csproj", "{84788A70-9F2F-47AB-AEF6-03198459F64D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32A56AA6-B6F4-4921-B22E-9BDB8C7CFB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A56AA6-B6F4-4921-B22E-9BDB8C7CFB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A56AA6-B6F4-4921-B22E-9BDB8C7CFB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A56AA6-B6F4-4921-B22E-9BDB8C7CFB53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB6EE8B-FD0B-428F-828D-5F92C6012ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB6EE8B-FD0B-428F-828D-5F92C6012ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB6EE8B-FD0B-428F-828D-5F92C6012ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB6EE8B-FD0B-428F-828D-5F92C6012ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{825556D4-F3E8-4E8F-8E7F-89E640B1126D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{825556D4-F3E8-4E8F-8E7F-89E640B1126D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{825556D4-F3E8-4E8F-8E7F-89E640B1126D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{825556D4-F3E8-4E8F-8E7F-89E640B1126D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2946A24C-ED2C-4955-934C-EE2FC119513C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2946A24C-ED2C-4955-934C-EE2FC119513C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2946A24C-ED2C-4955-934C-EE2FC119513C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2946A24C-ED2C-4955-934C-EE2FC119513C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84788A70-9F2F-47AB-AEF6-03198459F64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84788A70-9F2F-47AB-AEF6-03198459F64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84788A70-9F2F-47AB-AEF6-03198459F64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84788A70-9F2F-47AB-AEF6-03198459F64D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32A56AA6-B6F4-4921-B22E-9BDB8C7CFB53} = {9BA021C3-A7C3-43C0-9D25-CA8C458B177F}
+		{7BB6EE8B-FD0B-428F-828D-5F92C6012ED8} = {9BA021C3-A7C3-43C0-9D25-CA8C458B177F}
+		{825556D4-F3E8-4E8F-8E7F-89E640B1126D} = {9BA021C3-A7C3-43C0-9D25-CA8C458B177F}
+		{2946A24C-ED2C-4955-934C-EE2FC119513C} = {9BA021C3-A7C3-43C0-9D25-CA8C458B177F}
+		{84788A70-9F2F-47AB-AEF6-03198459F64D} = {9BA021C3-A7C3-43C0-9D25-CA8C458B177F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34691194-E9F4-4532-804A-D07602617E3A}
+	EndGlobalSection
+EndGlobal

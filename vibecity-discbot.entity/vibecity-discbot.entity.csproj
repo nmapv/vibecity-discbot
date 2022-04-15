@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>vibecity_discbot.entity</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\vibecity-discbot.infrastructure\vibecity-discbot.infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>vibecity_discbot.app</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\vibecity-discbot.entity\vibecity-discbot.entity.csproj" />
+    <ProjectReference Include="..\vibecity-discbot.infrastructure\vibecity-discbot.infrastructure.csproj" />
+    <ProjectReference Include="..\vibecity-discbot.repository\vibecity-discbot.repository.csproj" />
+    <ProjectReference Include="..\vibecity-discbot.service\vibecity-discbot.service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="users.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
